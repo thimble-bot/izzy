@@ -1,0 +1,10 @@
+[package]
+name = "thimblebot"
+version = "2.0.0"
+authors = [ "József Sallai <jozsef@sallai.me>" ]
+edition = "2018"
+
+[dependencies]
+dotenv = "0.15.0"
+serenity = "0.10"
+tokio = { version = "1.10", features = ["macros", "rt-multi-thread"] }

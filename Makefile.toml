@@ -1,0 +1,15 @@
+[tasks.build]
+command = "cargo"
+args = ["build"]
+
+[tasks.build_prod]
+command = "cargo"
+args = ["build", "--release"]
+
+[tasks.run]
+command = "cargo"
+args = ["run"]
+
+[tasks.run_prod]
+command = "cargo"
+args = ["run", "--release"]
